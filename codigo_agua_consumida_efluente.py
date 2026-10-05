@@ -133,3 +133,5 @@ plt.show()
 print("\nMédia do período (1998–2022) por município:")
 print(df_top5[anos].mean(axis=1).round(2).sort_values(ascending=False))
 print(f"\nMédia histórica geral de todo o RS: {medias_rs.mean():.2f}%")
+
+#FIM DO SCRIPT
